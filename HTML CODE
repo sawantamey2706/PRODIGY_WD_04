@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <img src="Photo.jpg" // Add the image title as photo.jpg in your Task folder// alt="Mandar Phatak" class="profile-photo">
+        <p>Hello! I’m Mandar Phatak, a passionate web developer currently in my final year of pursuing a Bachelor's degree in Technology (B.Tech) at Dr Babasaheb Ambedkar Technological University. With a strong foundation in front-end and back-end development, I thrive on creating dynamic, user-friendly web applications that solve real-world problems.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My journey into the world of technology began at a young age, fueled by a curiosity to understand how things work. This curiosity has evolved into a love for coding and design. Over the past few years, I have honed my skills in various programming languages, including HTML, CSS, JavaScript, and Python. I also have experience with frameworks like React and Node.js, which allow me to build efficient and scalable applications.</p>
+        <h3>Education</h3>
+        <p>B.Tech in Electronics And Telecommunication,  Dr.Babasaheb Ambedkar Technological University.</p>
+        <h3>Professional Experience</h3>
+        <ul>
+            <li>Web Developer at ABC Company</li>
+            <li>Intern at DEF Agency</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p>Description of Project 1. Technologies used: HTML, CSS, JavaScript. The Stopwatch Web Application is a user-friendly tool that allows users to measure elapsed time with start, stop, and reset functionalities. It's built using core web technologies: HTML, CSS, and JavaScript.</p>
+            <a href="https://drive.google.com/file/d/1RYbfhiQj1EDoSku8N9mXk9mq153dVBC2/view?usp=drivesdk">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p>Description of Project 2. Technologies used: HTML,CSS,JavaScript,To build a tic-tac-toe web application, you can use HTML, CSS, and JavaScript. By implementing functions to handle user clicks, track game state, and check for winning conditions, you can create an interactive and engaging tic-tac-toe game. With these technologies and functionalities, users can play against each other or against an AI opponent, aiming to get three markers in a row to win the game.</p>
+            <a href="https://drive.google.com/file/d/1SEnu09YdP18V-B0zWVWVJgEHFweCLYMk/view?usp=drivesdk">View Project</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PYTHON</li>
+        </ul>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Problem-Solving</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mandar Phatak. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
